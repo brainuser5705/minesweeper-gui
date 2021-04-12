@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper GUI</title>
+    <link href="script.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Minesweeper GUI</h1>
+    <h3>Version 1.0</h3>
+    <h2>built by Ashley Liew</h2>
+    <p>My own implementation of the classic Windows Minesweeper game</p>
+    <nav>
+        <a href="index.html"><b>About</b></a><br>
+        <a href="download.html"><b>Download</b></a><br>
+    </nav>
+    <hr>
+
+    <section>
+        <h3>About</h3>
+        <p>
+            I decided to make my command line Minesweeper program into a GUI for
+            fun after learning about how to make them with JavaFX in class. It's a
+            simple program, so extra functionalities like chording, timing or any
+            other features commonly found in Minesweeper programs are not included.
+        </p>
+        <h3>Notes about Implementation</h3>
+        <p>
+            I used recursion to implement Minesweeper which limits the possible
+            dimension sizes due to stack overflow for large sizes (80-90+ rows and columns). The grids will not reveal and the command line where you write the program will display an error.
+        </p>
+        <h3>Image Credits</h3>
+        <p>
+            All graphics (not including the JavaFX components) are made by me,
+            except for the ‘7’ icon for the numbered cell, Rosé pictures on the
+            new game button, and the flag icon (credit below).
+        </p>
+        <ul>
+            <li>"File:HistoryIcon.svg" by Ludvig14 is licensed with CC BY-SA 3.0.
+                To view a copy of this license, visit https://creativecommons
+                .org/licenses/by-sa/3.0</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Release Notes and Dev Logs</h3>
+        <a href="https://github.com/brainuser5705/minesweeper-gui" target="_blank">Github</a>
+        <div class="note">
+            Release v1.0 <b>(20210411)</b>
+            <ul>
+                JavaFX GUI
+                <li>layout similar to typical Minesweeper game</li>
+                <li>new game button, game over modes, different sizes and densities available</li>
+                <li>only basic commands (reveal, flag, unflag)</li>
+            </ul>
+        </div>
+    </section>
+
+    <caption>Here is a capture of the GUI</caption><br>
+    <img src="images/gameshot.png" height="300px">
+
+    <section>
+        <div><a href="https://github.com/brainuser5705/cmdline-minesweeper" target="_blank">Please check out my other Minesweeper project</a></div>
+        <div><a href="https://brainuser5705.github.io/cmdline-minesweeper/" target="_blank">And a timeline of the project</a></div>
+
+        <h4>Thank you for your interest in Minesweeper GUI! <br> Great thanks to the RIT CS department for teaching this, and Robert Donner and Curtis Johnson (creators of the classic Minesweeper game) for creating such an amazing game!</h4>
+    </section>
+
+
+</body>
+</html>
